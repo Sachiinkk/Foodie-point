@@ -1,10 +1,13 @@
 import React, { useState } from "react";
+import { SiVercel } from 'react-icons/si';
 import {
   FaFacebook,
   FaInstagram,
   FaLinkedin,
   FaLocationArrow,
   FaMobileAlt,
+  FaGithub,
+ 
 } from "react-icons/fa";
 import footerLogo from "../../assets/food-logo.png";
 
@@ -33,14 +36,20 @@ const Footer = () => {
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
-              <a href="#">
+              <a href="https://www.instagram.com/_.sachiin__/?hl=en">
                 <FaInstagram className="text-3xl" />
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/sachin.saroj.73345048">
                 <FaFacebook className="text-3xl" />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/sachin-saroj-09045725a/">
                 <FaLinkedin className="text-3xl" />
+              </a>
+              <a href="https://github.com/Sachiinkk">
+                <FaGithub className="text-3xl"></FaGithub>
+              </a>
+              <a href="https://vercel.com/sachiinkks-projects">
+                <SiVercel className="text-3x1"/>
               </a>
             </div>
           </div>

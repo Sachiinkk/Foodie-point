@@ -49,7 +49,7 @@ const Hero = () => {
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
                 Welcome{" "}
                 <span class="bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary">
-                  Foodie
+                Foodie-Point
                 </span>{" "}
                 Zone
               </h1>
